@@ -1,0 +1,12 @@
+[package]
+name = "isodate"
+version = "0.1.0"
+authors = ["Anthony Foxclaw"]
+edition = "2018"
+license = "MIT"
+readme = "README.md"
+keywords = ["finance", "week", "iso", "iso-week"]
+categories = ["date-and-time"]
+
+[dependencies]
+chrono = "0.4"
