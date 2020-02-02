@@ -1,6 +1,6 @@
 # IsoDate
 
-![Rust](https://github.com/tonytins/isodate/workflows/Rust/badge.svg) [![Build Status](https://travis-ci.org/tonytins/isodate.svg?branch=master)](https://travis-ci.org/tonytins/isodate) [![Build status](https://ci.appveyor.com/api/projects/status/ffru6ik26j2b87ko?svg=true)](https://ci.appveyor.com/project/tonytins/isodate) [![codecov](https://codecov.io/gh/tonytins/isodate/branch/master/graph/badge.svg)](https://codecov.io/gh/tonytins/isodate)
+![Rust](https://github.com/tonytins/isocal/workflows/Rust/badge.svg) [![Build Status](https://travis-ci.org/tonytins/isocal.svg?branch=master)](https://travis-ci.org/tonytins/isocal) [![Build status](https://ci.appveyor.com/api/projects/status/ffru6ik26j2b87ko?svg=true)](https://ci.appveyor.com/project/tonytins/isocal) [![codecov](https://codecov.io/gh/tonytins/isocal/branch/master/graph/badge.svg)](https://codecov.io/gh/tonytins/isocal)
 
 IsoDate is an extension to Chrono's IsoWeek (ISO 8601) that provides additional formatting and functions, such as the "W" prefix to weeks and the ISO ordinal.
 
@@ -9,7 +9,7 @@ IsoDate is an extension to Chrono's IsoWeek (ISO 8601) that provides additional 
 ```toml
 [dependencies]
 chrono = "0.4"
-isodate = { git = "https://github.com/tonytins/isodate" }
+isocal = { git = "https://github.com/tonytins/isocal" }
 ```
 <!--
 ### Crates.io
@@ -17,7 +17,7 @@ isodate = { git = "https://github.com/tonytins/isodate" }
 ```toml
 [dependencies]
 chrono = "0.4"
-isodate = "0.1"
+isocal = "0.1"
 ```
 
 -->
