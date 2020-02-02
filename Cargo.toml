@@ -1,5 +1,5 @@
 [package]
-name = "isodate"
+name = "isocal"
 version = "0.1.0"
 authors = ["Anthony Foxclaw"]
 edition = "2018"

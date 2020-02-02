@@ -2,7 +2,7 @@
 
 ![Rust](https://github.com/tonytins/isodate/workflows/Rust/badge.svg) [![Build Status](https://travis-ci.org/tonytins/isodate.svg?branch=master)](https://travis-ci.org/tonytins/isodate) [![Build status](https://ci.appveyor.com/api/projects/status/ffru6ik26j2b87ko?svg=true)](https://ci.appveyor.com/project/tonytins/isodate) [![codecov](https://codecov.io/gh/tonytins/isodate/branch/master/graph/badge.svg)](https://codecov.io/gh/tonytins/isodate)
 
-IsoDate is an extension to Chrono's IsoWeek (ISO 8601) that additional formatting.
+IsoDate is an extension to Chrono's IsoWeek (ISO 8601) that provides additional formatting and functions, such as the "W" prefix to weeks and the ISO ordinal.
 
 ## Installation
 
@@ -11,7 +11,7 @@ IsoDate is an extension to Chrono's IsoWeek (ISO 8601) that additional formattin
 chrono = "0.4"
 isodate = { git = "https://github.com/tonytins/isodate" }
 ```
-
+<!--
 ### Crates.io
 
 ```toml
@@ -19,6 +19,8 @@ isodate = { git = "https://github.com/tonytins/isodate" }
 chrono = "0.4"
 isodate = "0.1"
 ```
+
+-->
 
 ## Authors
 

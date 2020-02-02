@@ -1,12 +1,14 @@
-use isodate::IsoDate;
-use chrono::{Local, Utc, Datelike};
+use chrono::{Datelike, Local};
+use isocal::{IsoCal, IsoDate};
 
 pub fn main() {
-    let local = Local::now();
-    let utc = Utc::now();
-    let utc_isow = utc.iso_week();
-    let local_isow = local.iso_week();
+    let dt = Local::now();
+    let isow = dt.iso_week();
 
-    println!("Local: {}-{}, {}", local_isow.date(), local.day(), local.time());
-    println!("UTC: {}-{}, {}", utc_isow.date(), utc.day(), utc.time());
+    println!("ISO Date: {}-{}T{}", isow.date(), dt.day(), dt.time());
+    println!(
+        "It's day {} of the {} ISO calendar year.",
+        dt.iso_ordinal(),
+        isow.year()
+    );
 }
