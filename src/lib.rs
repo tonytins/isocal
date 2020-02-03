@@ -6,6 +6,7 @@
 /// formatting and functions, such as the "W" prefix to weeks and the ISO ordinal.
 use chrono::{DateTime, Datelike, FixedOffset, IsoWeek, Local, NaiveDate, Utc};
 
+
 pub trait IsoDate {
     fn week_fancy(self) -> String;
     fn week0_fancy(self) -> String;
