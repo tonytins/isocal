@@ -12,7 +12,7 @@ chrono = "0.4"
 isocal = { git = "https://github.com/tonytins/isocal" }
 ```
 
-<!--
+
 ### Crates.io
 
 ```toml
@@ -20,8 +20,6 @@ isocal = { git = "https://github.com/tonytins/isocal" }
 chrono = "0.4"
 isocal = "0.1"
 ```
-
--->
 
 ## Authors
 
