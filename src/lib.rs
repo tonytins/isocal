@@ -33,7 +33,7 @@ impl IsoCal for NaiveDate {
 
     /// Returns the day of the day year.
     ///
-    /// The return value ranges from 0 to 371. (The last day of year differs by years.)
+    /// The return value ranges from 0 to 370. (The last day of year differs by years.)
     fn iso_ordinal0(self) -> u32 {
         if self.year() % 4 == 0 {
             self.ordinal0() + 6
@@ -57,10 +57,10 @@ impl IsoCal for DateTime<Utc> {
 
     /// Returns the day of the day year.
     ///
-    /// The return value ranges from 0 to 371. (The last day of year differs by years.)
+    /// The return value ranges from 0 to 370. (The last day of year differs by years.)
     fn iso_ordinal0(self) -> u32 {
         if self.year() % 4 == 0 {
-            self.ordinal0() + 6
+            self.ordinal0() + 5
         } else {
             self.ordinal0()
         }
@@ -81,10 +81,10 @@ impl IsoCal for DateTime<Local> {
 
     /// Returns the day of the day year.
     ///
-    /// The return value ranges from 0 to 371. (The last day of year differs by years.)
+    /// The return value ranges from 0 to 370. (The last day of year differs by years.)
     fn iso_ordinal0(self) -> u32 {
         if self.year() % 4 == 0 {
-            self.ordinal0() + 6
+            self.ordinal0() + 5
         } else {
             self.ordinal0()
         }
@@ -105,10 +105,10 @@ impl IsoCal for DateTime<FixedOffset> {
 
     /// Returns the day of the day year.
     ///
-    /// The return value ranges from 0 to 371. (The last day of year differs by years.)
+    /// The return value ranges from 0 to 370. (The last day of year differs by years.)
     fn iso_ordinal0(self) -> u32 {
         if self.year() % 4 == 0 {
-            self.ordinal0() + 6
+            self.ordinal0() + 5
         } else {
             self.ordinal0()
         }
