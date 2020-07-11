@@ -11,4 +11,8 @@ pub fn main() {
         dt.iso_ordinal(),
         isow.year()
     );
+
+    println!("{}", isow.week_fancy());
+
+
 }
