@@ -44,6 +44,6 @@ See also the list of [contributors](https://github.com/tonytins/isow/contributor
 
 ## License
 
-`isocal` is licensed under either of MIT or the Mozilla Public License, Version 2.0.
+`isocal` is licensed under either of MIT or the Apache License, Version 2.0.
 
-See the [LICENSE-MPL](LICENSE-MPL) and [LICENSE-MIT](LICENSE-MIT) files in this repository for more information.
+See the [LICENSE-MPL](LICENSE-APACHE) and [LICENSE-MIT](LICENSE-MIT) files in this repository for more information.
