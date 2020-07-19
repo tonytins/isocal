@@ -12,7 +12,6 @@ chrono = "0.4"
 isocal = "0.1"
 ```
 
-
 ### Nightly
 
 ```toml
@@ -27,7 +26,7 @@ isocal = { git = "https://github.com/tonytins/isocal" }
 extern crate isocal; // Rust 2015
 use isocal::IsoDate;
 use chrono::{Local, IsoWeek, Datelike};
-    
+
 fn main() {
     let now = Local::now();
     let isow = now.iso_week();
@@ -47,3 +46,7 @@ See also the list of [contributors](https://github.com/tonytins/isow/contributor
 `isocal` is licensed under either of MIT or the Apache License, Version 2.0.
 
 See the [LICENSE-MPL](LICENSE-APACHE) and [LICENSE-MIT](LICENSE-MIT) files in this repository for more information.
+
+## Code of Conduct
+
+Please note that this project is released with a [Contributor Code of Conduct](CODE-OF-CONDUCT.md). By participating in this project you agree to abide by its terms.
