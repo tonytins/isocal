@@ -1,6 +1,6 @@
 # IsoCal
 
-![Rust](https://github.com/tonytins/isocal/workflows/Rust/badge.svg) [![Build Status](https://travis-ci.org/tonytins/isocal.svg?branch=master)](https://travis-ci.org/tonytins/isocal)
+![Rust](https://github.com/tonytins/isocal/workflows/Rust/badge.svg) [![Build Status](https://travis-ci.org/tonytins/isocal.svg?branch=master)](https://travis-ci.org/tonytins/isocal) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
 IsoCal is an extension to Chrono's IsoWeek (ISO 8601) that provides additional formatting and functions, such as the "W" prefix to weeks and the ISO ordinal.
 
