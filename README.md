@@ -35,12 +35,6 @@ fn main() {
 }
 ```
 
-## Authors
-
-- **Anthony Foxclaw** - _Initial work_ - [tonytins](https://github.com/tonytins)
-
-See also the list of [contributors](https://github.com/tonytins/isow/contributors) who participated in this project.
-
 ## License
 
 `isocal` is licensed under either of MIT or the Apache License, Version 2.0.
