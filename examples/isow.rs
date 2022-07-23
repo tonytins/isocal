@@ -1,4 +1,4 @@
-use chrono::{Datelike, Local};
+use chrono::prelude::*;
 use isocal::{IsoCal, IsoDate};
 
 pub fn main() {
@@ -13,6 +13,4 @@ pub fn main() {
     );
 
     println!("{}", isow.week_fancy());
-
-
 }

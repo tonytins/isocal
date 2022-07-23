@@ -22,8 +22,8 @@ isocal = "1"
 ## Example
 
 ```rust
+use chrono::prelude::*;
 use isocal::IsoDate;
-use chrono::{Local, IsoWeek, Datelike};
 
 fn main() {
     let now = Local::now();
