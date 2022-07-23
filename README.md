@@ -1,29 +1,27 @@
 # IsoCal
 
-![Rust](https://github.com/tonytins/isocal/workflows/Rust/badge.svg) [![Build Status](https://travis-ci.org/tonytins/isocal.svg?branch=master)](https://travis-ci.org/tonytins/isocal) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
+[![GitHub license](https://img.shields.io/github/license/tonytins/isocal)](https://github.com/tonytins/isocal/blob/main/LICENSE) ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/tonytins/isocal/Rust/main) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/tonytins/isocal) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
 IsoCal is an extension to Chrono's IsoWeek (ISO 8601) that provides additional formatting and functions, such as the "W" prefix to weeks and the ISO ordinal.
+
+## Requirements
+
+- Rust 2021 Edition or newer
+- IDEs or Editors
+  - [Visual Studio Code](https://code.visualstudio.com/)
+  - [InteliJ IDEA](https://www.jetbrains.com/idea/) or [CLion](https://www.jetbrains.com/clion/)
 
 ## Installation
 
 ```toml
 [dependencies]
 chrono = "0.4"
-isocal = "0.1"
-```
-
-### Nightly
-
-```toml
-[dependencies]
-chrono = "0.4"
-isocal = { git = "https://github.com/tonytins/isocal" }
+isocal = "1"
 ```
 
 ## Example
 
 ```rust
-extern crate isocal; // Rust 2015
 use isocal::IsoDate;
 use chrono::{Local, IsoWeek, Datelike};
 
@@ -37,9 +35,7 @@ fn main() {
 
 ## License
 
-`isocal` is licensed under either of MIT or the Apache License, Version 2.0.
-
-See the [LICENSE-MPL](LICENSE-APACHE) and [LICENSE-MIT](LICENSE-MIT) files in this repository for more information.
+This project is dual-licensed under the [BSD-3-Clause](COPYING) or the [UNLICENSE](UNLICENSE).
 
 ## Code of Conduct
 

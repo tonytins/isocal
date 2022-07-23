@@ -1,20 +1,16 @@
 [package]
 name = "isocal"
-version = "0.1.2"
-authors = ["Anthony Foxclaw"]
-edition = "2018"
-license = "MIT OR Apache-2.0"
+version = "1.0.100"
+authors = ["Tony Bark"]
+edition = "2021"
+license = "BSD-3-Clause OR UNLICENSE"
 repository = "https://github.com/tonytins/isocal"
-description = """
-IsoCal is an extension to Chrono's IsoWeek (ISO 8601) that provides additional formatting and functions, such as the "W" prefix to weeks and the ISO ordinal.
-"""
 readme = "README.md"
 keywords = ["finance", "week", "iso", "iso-week"]
 categories = ["date-and-time"]
 
 [badges]
-travis-ci = { repository = "tonytins/isocal", branch = "master" }
-maintenance = { status = "actively-developed" }
+maintenance = { status = "as-is" }
 
 [dependencies]
 chrono = "0.4"

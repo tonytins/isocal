@@ -1,11 +1,6 @@
-/*
- * This project is licensed under the MIT license.
- * See the LICENSE file in the project root for more information.
- */
 /// IsoDate is an extension to Chrono's IsoWeek (ISO 8601) that provides additional
 /// formatting and functions, such as the "W" prefix to weeks and the ISO ordinal.
 use chrono::{DateTime, Datelike, FixedOffset, IsoWeek, Local, NaiveDate, Utc};
-
 
 pub trait IsoDate {
     fn week_fancy(self) -> String;
