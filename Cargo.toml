@@ -1,9 +1,9 @@
 [package]
 name = "isocal"
 version = "1.0.100"
-authors = ["Tony Bark"]
+author = "Tony Bark"
 edition = "2021"
-license = "BSD-3-Clause OR UNLICENSE"
+license = "MIT OR Apache-2.0"
 repository = "https://github.com/tonytins/isocal"
 readme = "README.md"
 keywords = ["finance", "week", "iso", "iso-week"]
