@@ -35,4 +35,4 @@ fn main() {
 
 ## License
 
-This project is dual-licensed under the [BSD-3-Clause](COPYING) or the [UNLICENSE](UNLICENSE).
+This project is dual-licensed under the [MIT](LICENSE-MIT) or [Apache-2.0](LICENSE-APACHE).
